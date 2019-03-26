@@ -1,4 +1,7 @@
+import numpy as np
 import pandas as pd
+from matplotlib import pyplot as plt
+import seaborn as sns
 
 FIFA = pd.read_csv('2019/data.csv')
 list(FIFA)
@@ -16,3 +19,8 @@ Bayern.Age.mean()
 
 Bayern.Age.mean()<FIFA.Age.mean()
 #This statement compares average Bayern players age to all FIFA players, and Bayern players are younger than FIFA players
+
+plt.plot(Bayern['Age'], Bayern['Stamina'], marker='.', linestyle='none')
+plt.xlabel('Age of Player')
+plt.ylabel('Stamina of Player')
+plt.show()
