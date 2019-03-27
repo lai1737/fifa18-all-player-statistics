@@ -7,7 +7,7 @@ FIFA = pd.read_csv('2019/data.csv')
 list(FIFA)
 FIFA['Interceptions'].mean()
 ronaldo = FIFA[FIFA['Name'] == 'Cristiano Ronaldo']
-messi = FIFA[FIFA['Name'] == 'L. Messi'
+messi = FIFA[FIFA['Name'] == 'L. Messi']
 
 FIFA.Age.mean()
 #The average age of all players is 25.12
