@@ -9,6 +9,7 @@ FIFA['Interceptions'].mean()
 ronaldo = FIFA[FIFA['Name'] == 'Cristiano Ronaldo']
 messi = FIFA[FIFA['Name'] == 'L. Messi']
 
+np.mean(FIFA['Age'])
 FIFA.Age.mean()
 #The average age of all players is 25.12
 
